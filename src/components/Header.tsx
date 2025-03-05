@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import Logo from './ui/Logo';
@@ -31,7 +30,7 @@ const Header: React.FC = () => {
       }`}
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
-        <Logo size="sm" className="py-1" showTagline={false} />
+        <Logo size="sm" className="py-1" />
         
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-1">
