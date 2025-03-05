@@ -18,18 +18,20 @@ const Header: React.FC = () => {
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
+    // When menu is open, prevent scrolling on the body
+    document.body.style.overflow = !isMobileMenuOpen ? 'hidden' : '';
   };
 
   return (
     <header 
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled 
-          ? 'backdrop-blur-xl bg-cyber-darker/80 shadow-md py-3' 
-          : 'bg-transparent py-5'
+          ? 'backdrop-blur-xl bg-cyber-darker/80 shadow-md py-2' 
+          : 'bg-transparent py-3 md:py-5'
       }`}
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
-        <Logo />
+        <Logo size="sm" className="py-1" showTagline={false} />
         
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-1">
@@ -60,23 +62,25 @@ const Header: React.FC = () => {
       
       {/* Mobile Menu */}
       <div 
-        className={`md:hidden absolute w-full bg-cyber-darker/95 backdrop-blur-xl transition-all duration-300 shadow-lg ${
+        className={`md:hidden fixed inset-0 top-[56px] bg-cyber-darkest/95 backdrop-blur-xl transition-all duration-300 ${
           isMobileMenuOpen 
-            ? 'opacity-100 translate-y-0' 
+            ? 'opacity-100 translate-y-0 pointer-events-auto' 
             : 'opacity-0 -translate-y-10 pointer-events-none'
         }`}
       >
-        <div className="container mx-auto px-4 py-4 flex flex-col space-y-3">
+        <div className="container mx-auto px-4 py-8 flex flex-col space-y-4">
           <HeaderButton 
             href="https://chatgpt.com/g/g-TZOj6RYcq-property-data-finder"
             isPrimary
-            className="w-full justify-center"
+            className="w-full justify-center py-4"
+            onClick={() => setIsMobileMenuOpen(false)}
           >
             CONDUCT PROPERTY DATA SEARCH
           </HeaderButton>
           <HeaderButton 
             href="https://www.aiwebtools.ai"
-            className="w-full justify-center"
+            className="w-full justify-center py-4"
+            onClick={() => setIsMobileMenuOpen(false)}
           >
             More AI Tools
           </HeaderButton>
@@ -91,13 +95,15 @@ interface HeaderButtonProps {
   href: string;
   isPrimary?: boolean;
   className?: string;
+  onClick?: () => void;
 }
 
 const HeaderButton: React.FC<HeaderButtonProps> = ({ 
   children, 
   href, 
   isPrimary = false,
-  className = ""
+  className = "",
+  onClick
 }) => {
   return (
     <a 
@@ -112,6 +118,7 @@ const HeaderButton: React.FC<HeaderButtonProps> = ({
       `}
       target="_blank"
       rel="noopener noreferrer"
+      onClick={onClick}
     >
       <span className="relative z-10 flex items-center justify-center">{children}</span>
       {isPrimary && (

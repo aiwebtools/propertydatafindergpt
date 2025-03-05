@@ -1,6 +1,9 @@
+
 import React, { useRef, useEffect } from 'react';
+
 const VideoSection: React.FC = () => {
   const containerRef = useRef<HTMLDivElement>(null);
+  
   useEffect(() => {
     if (!containerRef.current) return;
 
@@ -23,22 +26,35 @@ const VideoSection: React.FC = () => {
       }
     };
   }, []);
-  return <section className="py-20 relative overflow-hidden">
+  
+  return (
+    <section className="py-12 md:py-20 relative overflow-hidden">
       <div className="absolute inset-0 cyber-grid opacity-30 z-0"></div>
       
-      <div ref={containerRef} className="container mx-auto px-4 relative z-10 opacity-0 translate-y-10 transition-all duration-700">
-        <div className="max-w-4xl mx-auto">
-          <div className="text-center mb-8">
-            <h2 className="text-gradient-blue mb-4">Find Property Data in Seconds</h2>
-            <p className="text-lg text-white/80 max-w-2xl mx-auto">Property Data Finder Anthem</p>
+      <div 
+        ref={containerRef} 
+        className="container mx-auto px-4 relative z-10 opacity-0 translate-y-10 transition-all duration-700"
+      >
+        <div className="w-full max-w-4xl mx-auto">
+          <div className="text-center mb-6 md:mb-8">
+            <h2 className="text-gradient-blue text-2xl md:text-3xl lg:text-4xl mb-3 md:mb-4">Find Property Data in Seconds</h2>
+            <p className="text-base md:text-lg text-white/80 max-w-2xl mx-auto">Property Data Finder Anthem</p>
           </div>
           
-          <div className="relative aspect-video rounded-xl overflow-hidden cyber-border cyber-glow">
+          <div className="relative aspect-video rounded-lg md:rounded-xl overflow-hidden cyber-border cyber-glow">
             <div className="absolute inset-0 bg-gradient-to-tr from-cyber-blue/20 to-cyber-purple/20 z-0"></div>
-            <iframe className="absolute inset-0 w-full h-full z-10" src="https://www.youtube.com/embed/0ZGBGn9yYwY?autoplay=1&mute=0&controls=1&modestbranding=1&rel=0&showinfo=0&enablejsapi=1&widgetid=1&hd=1" title="Property Data Finder GPT Demo" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            <iframe 
+              className="absolute inset-0 w-full h-full z-10" 
+              src="https://www.youtube.com/embed/0ZGBGn9yYwY?autoplay=1&mute=0&controls=1&modestbranding=1&rel=0&showinfo=0&enablejsapi=1&widgetid=1&hd=1" 
+              title="Property Data Finder GPT Demo" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowFullScreen
+            ></iframe>
           </div>
         </div>
       </div>
-    </section>;
+    </section>
+  );
 };
+
 export default VideoSection;
