@@ -9,6 +9,7 @@ import Testimonials from '@/components/Testimonials';
 import FAQ from '@/components/FAQ';
 import LegalDisclaimer from '@/components/LegalDisclaimer';
 import Footer from '@/components/Footer';
+import DisclaimerPopup from '@/components/DisclaimerPopup';
 
 const Index: React.FC = () => {
   useEffect(() => {
@@ -69,6 +70,7 @@ const Index: React.FC = () => {
         <LegalDisclaimer />
       </main>
       <Footer />
+      <DisclaimerPopup />
     </div>
   );
 };
