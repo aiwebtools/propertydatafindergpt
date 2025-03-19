@@ -87,14 +87,22 @@ const HowItWorks: React.FC = () => {
           </div>
         </div>
         
-        <div className="mt-24 text-center">
+        <div className="mt-24 text-center flex flex-col sm:flex-row justify-center gap-4">
           <a 
             href="https://chatgpt.com/g/g-TZOj6RYcq-property-data-finder" 
             className="inline-block px-8 py-3 bg-gradient-to-r from-cyber-blue to-cyber-purple text-white font-medium rounded-full hover:shadow-[0_0_20px_-5px_rgba(56,249,215,0.6)] transition-all duration-300 scale-100 hover:scale-105"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Try Property Data Finder Now
+            Try Property Data Finder
+          </a>
+          <a 
+            href="https://realestategpt.lovable.app/?via=aiwebtools" 
+            className="inline-block px-8 py-3 bg-gradient-to-r from-cyber-green to-cyber-teal text-white font-medium rounded-full hover:shadow-[0_0_20px_-5px_rgba(56,249,215,0.6)] transition-all duration-300 scale-100 hover:scale-105"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Try Real Estate GPT
           </a>
         </div>
       </div>

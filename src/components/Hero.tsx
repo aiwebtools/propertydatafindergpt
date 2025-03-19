@@ -76,6 +76,17 @@ const Hero: React.FC = () => {
               </span>
             </a>
             <a 
+              href="https://realestategpt.lovable.app/?via=aiwebtools" 
+              className="px-8 py-3 bg-gradient-to-r from-cyber-green to-cyber-teal text-white font-medium rounded-full hover:shadow-[0_0_20px_-5px_rgba(56,249,215,0.6)] transition-all duration-300 scale-100 hover:scale-105"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="flex items-center justify-center">
+                Use Real Estate GPT
+                <ArrowRight className="ml-2 w-4 h-4" />
+              </span>
+            </a>
+            <a 
               href="https://www.aiwebtools.ai" 
               className="px-8 py-3 bg-white/5 backdrop-blur-sm border border-white/10 text-white font-medium rounded-full hover:bg-white/10 transition-all duration-300"
               target="_blank"

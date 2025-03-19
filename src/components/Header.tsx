@@ -1,3 +1,4 @@
+
 import React, { useEffect, useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import Logo from './ui/Logo';
@@ -38,7 +39,14 @@ const Header: React.FC = () => {
             href="https://chatgpt.com/g/g-TZOj6RYcq-property-data-finder"
             isPrimary
           >
-            CONDUCT PROPERTY DATA SEARCH
+            PROPERTY DATA SEARCH
+          </HeaderButton>
+          <HeaderButton 
+            href="https://realestategpt.lovable.app/?via=aiwebtools"
+            isPrimary
+            className="bg-gradient-to-r from-cyber-green to-cyber-teal"
+          >
+            REAL ESTATE GPT
           </HeaderButton>
           <HeaderButton href="https://www.aiwebtools.ai">
             More AI Tools
@@ -74,7 +82,15 @@ const Header: React.FC = () => {
             className="w-full justify-center py-4"
             onClick={() => setIsMobileMenuOpen(false)}
           >
-            CONDUCT PROPERTY DATA SEARCH
+            PROPERTY DATA SEARCH
+          </HeaderButton>
+          <HeaderButton 
+            href="https://realestategpt.lovable.app/?via=aiwebtools"
+            isPrimary
+            className="w-full justify-center py-4 bg-gradient-to-r from-cyber-green to-cyber-teal"
+            onClick={() => setIsMobileMenuOpen(false)}
+          >
+            REAL ESTATE GPT
           </HeaderButton>
           <HeaderButton 
             href="https://www.aiwebtools.ai"

@@ -40,6 +40,9 @@ const Footer: React.FC = () => {
               <FooterLink href="https://chatgpt.com/g/g-TZOj6RYcq-property-data-finder">
                 Property Data Search
               </FooterLink>
+              <FooterLink href="https://realestategpt.lovable.app/?via=aiwebtools">
+                Real Estate GPT
+              </FooterLink>
               <FooterLink href="https://www.aiwebtools.ai">
                 More AI Tools
               </FooterLink>
@@ -71,20 +74,31 @@ const Footer: React.FC = () => {
           </div>
           
           <div>
-            <h4 className="text-white font-medium mb-6">Try Property Data Finder</h4>
+            <h4 className="text-white font-medium mb-6">Try Our AI Tools</h4>
             <p className="text-white/60 mb-4 text-sm">
-              Get comprehensive property information including value, topography, 
-              living area, construction year, orientation, and precise coordinates.
+              Get comprehensive property information and expert real estate assistance with our powerful AI tools.
             </p>
-            <a 
-              href="https://chatgpt.com/g/g-TZOj6RYcq-property-data-finder" 
-              className="inline-flex items-center text-cyber-green hover:text-cyber-blue transition-colors group"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Start searching now
-              <ArrowRight className="ml-2 w-4 h-4 transition-transform group-hover:translate-x-1" />
-            </a>
+            <div className="space-y-3">
+              <a 
+                href="https://chatgpt.com/g/g-TZOj6RYcq-property-data-finder" 
+                className="inline-flex items-center text-cyber-green hover:text-cyber-blue transition-colors group"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Property Data Finder
+                <ArrowRight className="ml-2 w-4 h-4 transition-transform group-hover:translate-x-1" />
+              </a>
+              <div className="block"></div>
+              <a 
+                href="https://realestategpt.lovable.app/?via=aiwebtools" 
+                className="inline-flex items-center text-cyber-pink hover:text-cyber-purple transition-colors group"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Real Estate GPT
+                <ArrowRight className="ml-2 w-4 h-4 transition-transform group-hover:translate-x-1" />
+              </a>
+            </div>
           </div>
         </div>
         
@@ -93,15 +107,26 @@ const Footer: React.FC = () => {
             &copy; 2025 <a href="https://www.aiwebtools.ai" className="hover:text-white transition-colors">AI WEB TOOLS LLC</a> All rights reserved.
           </p>
           
-          <a 
-            href="https://www.aiwebtools.ai" 
-            className="inline-flex items-center px-5 py-2 bg-gradient-to-r from-cyber-blue to-cyber-purple text-white text-sm font-medium rounded-full hover:shadow-[0_0_15px_-3px_rgba(54,163,255,0.6)] transition-all duration-300"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            More AI Tools
-            <ExternalLink className="ml-2 w-3.5 h-3.5" />
-          </a>
+          <div className="flex flex-col sm:flex-row gap-3">
+            <a 
+              href="https://realestategpt.lovable.app/?via=aiwebtools" 
+              className="inline-flex items-center px-5 py-2 bg-gradient-to-r from-cyber-green to-cyber-teal text-white text-sm font-medium rounded-full hover:shadow-[0_0_15px_-3px_rgba(56,249,215,0.6)] transition-all duration-300"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Real Estate GPT
+              <ExternalLink className="ml-2 w-3.5 h-3.5" />
+            </a>
+            <a 
+              href="https://www.aiwebtools.ai" 
+              className="inline-flex items-center px-5 py-2 bg-gradient-to-r from-cyber-blue to-cyber-purple text-white text-sm font-medium rounded-full hover:shadow-[0_0_15px_-3px_rgba(54,163,255,0.6)] transition-all duration-300"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              More AI Tools
+              <ExternalLink className="ml-2 w-3.5 h-3.5" />
+            </a>
+          </div>
         </div>
       </div>
     </footer>
