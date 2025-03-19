@@ -50,7 +50,7 @@ const Hero: React.FC = () => {
         <div className="max-w-3xl mx-auto text-center">
           <div className="inline-block mb-3 px-3 py-1 bg-white/5 backdrop-blur-sm border border-white/10 rounded-full animate-fade-in">
             <p className="text-sm font-medium text-cyber-green">
-              Advanced Property Intelligence
+              Advanced Real Estate & Property Intelligence
             </p>
           </div>
           
