@@ -39,7 +39,7 @@ const Header: React.FC = () => {
             href="https://chatgpt.com/g/g-TZOj6RYcq-property-data-finder"
             isPrimary
           >
-            PROPERTY DATA SEARCH
+            USE PROPERTY DATA FINDER GPT
           </HeaderButton>
           <HeaderButton 
             href="https://realestategpt.lovable.app/?via=aiwebtools"
@@ -82,7 +82,7 @@ const Header: React.FC = () => {
             className="w-full justify-center py-4"
             onClick={() => setIsMobileMenuOpen(false)}
           >
-            USE PROPERTY DATA SEARCH
+            USE PROPERTY DATA FINDER GPT
           </HeaderButton>
           <HeaderButton 
             href="https://realestategpt.lovable.app/?via=aiwebtools"
