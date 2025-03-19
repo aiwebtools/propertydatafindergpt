@@ -98,6 +98,16 @@ const Footer: React.FC = () => {
                 Real Estate GPT
                 <ArrowRight className="ml-2 w-4 h-4 transition-transform group-hover:translate-x-1" />
               </a>
+              <div className="block"></div>
+              <a 
+                href="https://www.aiwebtools.ai" 
+                className="inline-flex items-center text-cyber-blue hover:text-cyber-accent transition-colors group"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                More AI Tools
+                <ArrowRight className="ml-2 w-4 h-4 transition-transform group-hover:translate-x-1" />
+              </a>
             </div>
           </div>
         </div>
