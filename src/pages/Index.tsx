@@ -8,6 +8,7 @@ import HowItWorks from '@/components/HowItWorks';
 import Testimonials from '@/components/Testimonials';
 import FAQ from '@/components/FAQ';
 import LegalDisclaimer from '@/components/LegalDisclaimer';
+import ToolButtons from '@/components/ToolButtons';
 import Footer from '@/components/Footer';
 import DisclaimerPopup from '@/components/DisclaimerPopup';
 
@@ -68,6 +69,7 @@ const Index: React.FC = () => {
         <Testimonials />
         <FAQ />
         <LegalDisclaimer />
+        <ToolButtons />
       </main>
       <Footer />
       <DisclaimerPopup />
