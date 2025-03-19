@@ -116,16 +116,16 @@ const Hero: React.FC = () => {
         </div>
       </div>
       
-      {/* Decorative floating elements */}
+      {/* Decorative floating elements - Repositioned to avoid overlapping with text and buttons */}
       <div 
-        className="absolute top-1/4 left-10 w-24 h-24 glass rounded-2xl grid place-items-center animate-float-slow" 
+        className="absolute top-[15%] left-[5%] w-24 h-24 glass rounded-2xl grid place-items-center animate-float-slow" 
         data-parallax 
         data-strength="0.08"
       >
         <Search className="w-10 h-10 text-cyber-green/80" />
       </div>
       <div 
-        className="absolute bottom-1/4 right-10 w-20 h-20 glass rounded-2xl grid place-items-center animate-float" 
+        className="absolute bottom-[10%] right-[5%] w-20 h-20 glass rounded-2xl grid place-items-center animate-float" 
         data-parallax 
         data-strength="0.1"
       >
