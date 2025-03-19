@@ -18,8 +18,10 @@ const Header: React.FC = () => {
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
-    // When menu is open, prevent scrolling on the body
-    document.body.style.overflow = !isMobileMenuOpen ? 'hidden' : '';
+    // Only prevent scrolling if we're using a full-screen overlay
+    // Since we're changing to a dropdown that doesn't block the whole page,
+    // we're going to comment this out
+    // document.body.style.overflow = !isMobileMenuOpen ? 'hidden' : '';
   };
 
   return (
@@ -67,19 +69,19 @@ const Header: React.FC = () => {
         </button>
       </div>
       
-      {/* Mobile Menu */}
+      {/* Mobile Menu - Changed to a dropdown instead of fullscreen overlay */}
       <div 
-        className={`md:hidden fixed inset-0 top-[56px] bg-cyber-darkest/95 backdrop-blur-xl transition-all duration-300 ${
+        className={`md:hidden absolute right-4 top-[56px] w-64 rounded-lg glass neo-blur transition-all duration-300 z-50 ${
           isMobileMenuOpen 
             ? 'opacity-100 translate-y-0 pointer-events-auto' 
             : 'opacity-0 -translate-y-10 pointer-events-none'
         }`}
       >
-        <div className="container mx-auto px-4 py-8 flex flex-col space-y-4">
+        <div className="py-4 flex flex-col space-y-3">
           <HeaderButton 
             href="https://chatgpt.com/g/g-TZOj6RYcq-property-data-finder"
             isPrimary
-            className="w-full justify-center py-4"
+            className="mx-3 justify-center py-3"
             onClick={() => setIsMobileMenuOpen(false)}
           >
             USE PROPERTY DATA FINDER GPT
@@ -87,14 +89,14 @@ const Header: React.FC = () => {
           <HeaderButton 
             href="https://realestategpt.lovable.app/?via=aiwebtools"
             isPrimary
-            className="w-full justify-center py-4 bg-gradient-to-r from-cyber-green to-cyber-teal"
+            className="mx-3 justify-center py-3 bg-gradient-to-r from-cyber-green to-cyber-teal"
             onClick={() => setIsMobileMenuOpen(false)}
           >
             USE REAL ESTATE GPT
           </HeaderButton>
           <HeaderButton 
             href="https://www.aiwebtools.ai"
-            className="w-full justify-center py-4"
+            className="mx-3 justify-center py-3"
             onClick={() => setIsMobileMenuOpen(false)}
           >
             More AI Tools
