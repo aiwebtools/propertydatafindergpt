@@ -119,6 +119,15 @@ const Footer: React.FC = () => {
           
           <div className="flex flex-col sm:flex-row gap-3">
             <a 
+              href="https://chatgpt.com/g/g-TZOj6RYcq-property-data-finder" 
+              className="inline-flex items-center px-5 py-2 bg-gradient-to-r from-cyber-accent to-cyber-blue text-white text-sm font-medium rounded-full hover:shadow-[0_0_15px_-3px_rgba(103,232,249,0.6)] transition-all duration-300"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Property Data Finder GPT
+              <ExternalLink className="ml-2 w-3.5 h-3.5" />
+            </a>
+            <a 
               href="https://realestategpt.lovable.app/?via=aiwebtools" 
               className="inline-flex items-center px-5 py-2 bg-gradient-to-r from-cyber-green to-cyber-teal text-white text-sm font-medium rounded-full hover:shadow-[0_0_15px_-3px_rgba(56,249,215,0.6)] transition-all duration-300"
               target="_blank"
