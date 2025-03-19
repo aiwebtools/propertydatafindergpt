@@ -82,7 +82,7 @@ const Header: React.FC = () => {
             className="w-full justify-center py-4"
             onClick={() => setIsMobileMenuOpen(false)}
           >
-            PROPERTY DATA SEARCH
+            USE PROPERTY DATA SEARCH
           </HeaderButton>
           <HeaderButton 
             href="https://realestategpt.lovable.app/?via=aiwebtools"
@@ -90,7 +90,7 @@ const Header: React.FC = () => {
             className="w-full justify-center py-4 bg-gradient-to-r from-cyber-green to-cyber-teal"
             onClick={() => setIsMobileMenuOpen(false)}
           >
-            REAL ESTATE GPT
+            USE REAL ESTATE GPT
           </HeaderButton>
           <HeaderButton 
             href="https://www.aiwebtools.ai"
