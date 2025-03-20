@@ -43,6 +43,9 @@ const Footer: React.FC = () => {
               <FooterLink href="https://realestategpt.lovable.app/?via=aiwebtools">
                 Real Estate GPT
               </FooterLink>
+              <FooterLink href="https://personfindergpt.lovable.app/?via=aiwebtools">
+                Person Information Finder
+              </FooterLink>
               <FooterLink href="https://www.aiwebtools.ai">
                 More AI Tools
               </FooterLink>
@@ -100,6 +103,16 @@ const Footer: React.FC = () => {
               </a>
               <div className="block"></div>
               <a 
+                href="https://personfindergpt.lovable.app/?via=aiwebtools" 
+                className="inline-flex items-center text-cyber-purple hover:text-cyber-pink transition-colors group"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Person Information Finder
+                <ArrowRight className="ml-2 w-4 h-4 transition-transform group-hover:translate-x-1" />
+              </a>
+              <div className="block"></div>
+              <a 
                 href="https://www.aiwebtools.ai" 
                 className="inline-flex items-center text-cyber-blue hover:text-cyber-accent transition-colors group"
                 target="_blank"
@@ -134,6 +147,15 @@ const Footer: React.FC = () => {
               rel="noopener noreferrer"
             >
               Real Estate GPT
+              <ExternalLink className="ml-2 w-3.5 h-3.5" />
+            </a>
+            <a 
+              href="https://personfindergpt.lovable.app/?via=aiwebtools" 
+              className="inline-flex items-center px-5 py-2 bg-gradient-to-r from-cyber-pink to-cyber-purple text-white text-sm font-medium rounded-full hover:shadow-[0_0_15px_-3px_rgba(255,66,161,0.6)] transition-all duration-300"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Person Finder GPT
               <ExternalLink className="ml-2 w-3.5 h-3.5" />
             </a>
             <a 

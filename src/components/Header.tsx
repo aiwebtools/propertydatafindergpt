@@ -50,6 +50,13 @@ const Header: React.FC = () => {
           >
             REAL ESTATE GPT
           </HeaderButton>
+          <HeaderButton 
+            href="https://personfindergpt.lovable.app/?via=aiwebtools"
+            isPrimary
+            className="bg-gradient-to-r from-cyber-pink to-cyber-purple"
+          >
+            PERSON FINDER GPT
+          </HeaderButton>
           <HeaderButton href="https://www.aiwebtools.ai">
             More AI Tools
           </HeaderButton>
@@ -93,6 +100,14 @@ const Header: React.FC = () => {
             onClick={() => setIsMobileMenuOpen(false)}
           >
             USE REAL ESTATE GPT
+          </HeaderButton>
+          <HeaderButton 
+            href="https://personfindergpt.lovable.app/?via=aiwebtools"
+            isPrimary
+            className="mx-3 justify-center py-3 bg-gradient-to-r from-cyber-pink to-cyber-purple"
+            onClick={() => setIsMobileMenuOpen(false)}
+          >
+            PERSON FINDER GPT
           </HeaderButton>
           <HeaderButton 
             href="https://www.aiwebtools.ai"
