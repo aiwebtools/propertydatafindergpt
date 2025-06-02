@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Logo from './ui/Logo';
 import { Mail, Phone, ExternalLink, ArrowRight } from 'lucide-react';
@@ -52,7 +51,7 @@ const Footer: React.FC = () => {
               <FooterLink href="https://openai.com/policies/privacy-policy/">
                 Privacy Policy
               </FooterLink>
-              <FooterLink href="https://aiwebtools.ai/terms-of-services">
+              <FooterLink href="https://aiwebtools.lovable.app/disclaimers">
                 Terms of Service
               </FooterLink>
             </ul>

@@ -45,6 +45,9 @@ const LegalDisclaimer: React.FC = () => {
             <div>
               <h3 className="text-lg font-medium mb-3">Legal Disclaimer</h3>
               <div className="space-y-3 text-sm text-white/70">
+                <p className="text-white/80 font-medium">
+                  This tool is provided for informational, educational, and research purposes only.
+                </p>
                 <p>
                   The information provided by Property Data Finder GPT is gathered from publicly available sources and is intended for informational purposes only. While we strive for accuracy, the data may not always be complete, up-to-date, or error-free.
                 </p>
