@@ -1,4 +1,3 @@
-
 import React, { useRef, useEffect } from 'react';
 import { 
   Search, 
@@ -53,62 +52,62 @@ const Features: React.FC = () => {
     >
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 opacity-0 translate-y-10 transition-all duration-700" ref={el => el && setTimeout(() => el.classList.add('opacity-100', 'translate-y-0'), 100)}>
-          <h2 className="text-gradient-blue mb-4">Comprehensive Property Intelligence</h2>
+          <h2 className="text-gradient-blue mb-4">AI WEB TOOLS - Comprehensive Property Intelligence</h2>
           <p className="text-lg text-white/80 max-w-2xl mx-auto">
-            Our AI scans multiple sources to deliver accurate and complete property details,
-            ensuring you have all the information you need for informed decisions.
+            AIWEBTOOLS.AI leverages advanced AI technology to scan multiple sources and deliver accurate, 
+            complete property data. Our AI tools ensure you have all the real estate information needed for informed decisions.
           </p>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <FeatureCard
             icon={<DollarSign className="w-6 h-6 text-cyber-green" />}
-            title="Property Value"
-            description="Current market value and historical sales data to understand property worth"
+            title="AI Property Valuation"
+            description="Advanced AI algorithms analyze current market value and historical sales data to provide accurate property valuations"
           />
           <FeatureCard
             icon={<Map className="w-6 h-6 text-cyber-blue" />}
-            title="Topography"
-            description="Detailed information about property size, terrain features, and zoning"
+            title="AI Topography Analysis"
+            description="Our AI tools provide detailed property size, terrain features, and zoning information for comprehensive real estate analysis"
           />
           <FeatureCard
             icon={<Home className="w-6 h-6 text-cyber-pink" />}
-            title="Living Area"
-            description="Precise square footage measurements and number of stories"
+            title="Smart Living Area Calculator"
+            description="AI-powered precise square footage measurements and accurate number of stories calculation for any property"
           />
           <FeatureCard
             icon={<Calendar className="w-6 h-6 text-cyber-purple" />}
-            title="Year Built"
-            description="Construction year and history of major renovations"
+            title="Property History AI"
+            description="Construction year analysis and complete history of major renovations using advanced AI data processing"
           />
           <FeatureCard
             icon={<Compass className="w-6 h-6 text-cyber-green" />}
-            title="Facing Direction"
-            description="Property orientation details to understand sun exposure and views"
+            title="AI Orientation Analysis"
+            description="Smart property orientation detection to understand sun exposure patterns and optimal views using AI technology"
           />
           <FeatureCard
             icon={<MapPin className="w-6 h-6 text-cyber-blue" />}
-            title="Coordinates"
-            description="Precise latitude and longitude for exact property location"
+            title="GPS Coordinate AI"
+            description="Precise latitude and longitude calculation using AI for exact property location and boundary identification"
           />
         </div>
         
         <div className="mt-16 glass p-8 rounded-xl opacity-0 translate-y-10 transition-all duration-700" ref={el => el && setTimeout(() => el.classList.add('opacity-100', 'translate-y-0'), 700)}>
           <div className="flex flex-col md:flex-row gap-8 items-center">
             <div className="flex-1">
-              <h3 className="text-2xl font-medium mb-4">Data Verification Process</h3>
+              <h3 className="text-2xl font-medium mb-4">AI WEB TOOLS Data Verification Process</h3>
               <p className="text-white/80 mb-6">
                 Unlike other property data tools that rely on single sources, 
-                Property Data Finder GPT cross-references multiple reliable sources 
-                to ensure the highest level of accuracy for every data point.
+                AI WEB TOOLS' Property Data Finder GPT uses advanced AI to cross-reference multiple reliable sources, 
+                ensuring the highest level of accuracy for every real estate data point.
               </p>
               <ul className="space-y-3">
                 {[
-                  "Cross-references multiple authoritative sources",
-                  "Prioritizes recent data over outdated information",
-                  "Verifies data consistency across different platforms",
-                  "Never fabricates missing information",
-                  "Provides source attribution for all data points"
+                  "AI-powered cross-referencing of multiple authoritative real estate sources",
+                  "Smart prioritization of recent data over outdated property information",
+                  "Advanced AI verification of data consistency across different platforms",
+                  "Ethical AI that never fabricates missing real estate information",
+                  "Transparent source attribution for all property data points"
                 ].map((item, index) => (
                   <li key={index} className="flex items-start">
                     <span className="mr-2 mt-1 p-1 rounded-full bg-cyber-green/20">
@@ -127,7 +126,7 @@ const Features: React.FC = () => {
                   <Eye className="w-16 h-16 text-cyber-green opacity-60" />
                 </div>
                 <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-cyber-darker to-transparent">
-                  <p className="text-center text-sm text-white/90 font-medium">Accurate Data Verification</p>
+                  <p className="text-center text-sm text-white/90 font-medium">AI-Powered Data Verification</p>
                 </div>
               </div>
             </div>

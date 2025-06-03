@@ -1,4 +1,3 @@
-
 import React, { useEffect, useRef } from 'react';
 import { ArrowRight, Search, Database, Map } from 'lucide-react';
 
@@ -50,17 +49,17 @@ const Hero: React.FC = () => {
         <div className="max-w-3xl mx-auto text-center">
           <div className="inline-block mb-3 px-3 py-1 bg-white/5 backdrop-blur-sm border border-white/10 rounded-full animate-fade-in">
             <p className="text-sm font-medium text-cyber-green">
-              Advanced Real Estate & Property Intelligence
+              AI WEB TOOLS - Advanced Real Estate & Property Intelligence
             </p>
           </div>
           
           <h1 className="text-gradient mb-6 animate-fade-in animate-delay-100">
-            Comprehensive Property Data Insights Powered by AI
+            AIWEBTOOLS.AI - Premium AI Tools for Property Data & Real Estate Intelligence
           </h1>
           
           <p className="text-lg text-white/80 mb-8 animate-fade-in animate-delay-200">
-            Get accurate, complete property information for any address in seconds.
-            From valuations to topography, we deliver verified, up-to-date property insights.
+            Discover the power of AI WEB TOOLS with our comprehensive suite of AI-powered solutions. 
+            Get accurate property valuations, topography data, and real estate insights in seconds with our advanced AI tools.
           </p>
           
           <div className="flex flex-col sm:flex-row justify-center gap-4 mb-12 animate-fade-in animate-delay-300">
@@ -69,9 +68,10 @@ const Hero: React.FC = () => {
               className="px-8 py-3 bg-gradient-to-r from-cyber-blue to-cyber-purple text-white font-medium rounded-full hover:shadow-[0_0_20px_-5px_rgba(56,249,215,0.6)] transition-all duration-300 scale-100 hover:scale-105"
               target="_blank"
               rel="noopener noreferrer"
+              title="Property Data Finder GPT - AI Property Search Tool"
             >
               <span className="flex items-center justify-center">
-                Search Property Data
+                Property Data Finder GPT
                 <ArrowRight className="ml-2 w-4 h-4" />
               </span>
             </a>
@@ -80,9 +80,10 @@ const Hero: React.FC = () => {
               className="px-8 py-3 bg-gradient-to-r from-cyber-green to-cyber-teal text-white font-medium rounded-full hover:shadow-[0_0_20px_-5px_rgba(56,249,215,0.6)] transition-all duration-300 scale-100 hover:scale-105"
               target="_blank"
               rel="noopener noreferrer"
+              title="Real Estate GPT - AI Assistant for Real Estate"
             >
               <span className="flex items-center justify-center">
-                Use Real Estate GPT
+                Real Estate GPT
                 <ArrowRight className="ml-2 w-4 h-4" />
               </span>
             </a>
@@ -91,6 +92,7 @@ const Hero: React.FC = () => {
               className="px-8 py-3 bg-gradient-to-r from-cyber-pink to-cyber-purple text-white font-medium rounded-full hover:shadow-[0_0_20px_-5px_rgba(56,249,215,0.6)] transition-all duration-300 scale-100 hover:scale-105"
               target="_blank"
               rel="noopener noreferrer"
+              title="Person Information Finder GPT - AI Person Search Tool"
             >
               <span className="flex items-center justify-center">
                 Person Information Finder
@@ -102,6 +104,7 @@ const Hero: React.FC = () => {
               className="px-8 py-3 bg-white/5 backdrop-blur-sm border border-white/10 text-white font-medium rounded-full hover:bg-white/10 transition-all duration-300"
               target="_blank"
               rel="noopener noreferrer"
+              title="AI WEB TOOLS - More AI Tools and Solutions"
             >
               Explore More AI Tools
             </a>
@@ -110,18 +113,18 @@ const Hero: React.FC = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 animate-fade-in animate-delay-500">
             <FeatureCard 
               icon={<Search className="w-5 h-5 text-cyber-green" />}
-              title="Comprehensive Search"
-              description="Scans multiple sources to find every detail about your property"
+              title="AI-Powered Property Search"
+              description="Advanced AI tools that scan multiple sources for comprehensive property data and real estate intelligence"
             />
             <FeatureCard 
               icon={<Database className="w-5 h-5 text-cyber-pink" />}
-              title="Verified Data"
-              description="All data is verified against multiple reliable sources"
+              title="Verified Real Estate Data"
+              description="AI WEB TOOLS ensures all property data is verified against multiple reliable real estate sources"
             />
             <FeatureCard 
               icon={<Map className="w-5 h-5 text-cyber-blue" />}
-              title="Detailed Insights"
-              description="From value to topography, orientation, and coordinates"
+              title="Comprehensive AI Analysis"
+              description="From property values to topography and coordinates - our AI tools deliver detailed real estate insights"
             />
           </div>
         </div>
