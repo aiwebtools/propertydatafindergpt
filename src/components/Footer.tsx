@@ -158,7 +158,7 @@ const Footer: React.FC = () => {
               <ExternalLink className="ml-2 w-3.5 h-3.5" />
             </a>
             <a 
-              href="https://www.aiwebtools.ai" 
+              href="https://aiwebtools.lovable.app/?via=aiwebtools" 
               className="inline-flex items-center px-5 py-2 bg-gradient-to-r from-cyber-blue to-cyber-purple text-white text-sm font-medium rounded-full hover:shadow-[0_0_15px_-3px_rgba(54,163,255,0.6)] transition-all duration-300"
               target="_blank"
               rel="noopener noreferrer"

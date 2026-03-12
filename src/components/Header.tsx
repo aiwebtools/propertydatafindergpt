@@ -110,7 +110,7 @@ const Header: React.FC = () => {
             PERSON FINDER GPT
           </HeaderButton>
           <HeaderButton 
-            href="https://www.aiwebtools.ai"
+            href="https://aiwebtools.lovable.app/?via=aiwebtools"
             className="mx-3 justify-center py-3"
             onClick={() => setIsMobileMenuOpen(false)}
           >
