@@ -45,7 +45,7 @@ const Footer: React.FC = () => {
               <FooterLink href="https://personfindergpt.lovable.app/?via=aiwebtools">
                 Person Information Finder
               </FooterLink>
-              <FooterLink href="https://www.aiwebtools.ai">
+              <FooterLink href="https://aiwebtools.lovable.app/?via=aiwebtools">
                 More AI Tools
               </FooterLink>
               <FooterLink href="https://openai.com/policies/privacy-policy/">
@@ -112,7 +112,7 @@ const Footer: React.FC = () => {
               </a>
               <div className="block"></div>
               <a 
-                href="https://www.aiwebtools.ai" 
+                href="https://aiwebtools.lovable.app/?via=aiwebtools" 
                 className="inline-flex items-center text-cyber-blue hover:text-cyber-accent transition-colors group"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -126,7 +126,7 @@ const Footer: React.FC = () => {
         
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-white/60 text-sm mb-4 md:mb-0">
-            &copy; 2025 <a href="https://www.aiwebtools.ai" className="hover:text-white transition-colors">AI WEB TOOLS LLC</a> All rights reserved.
+            &copy; 2025 <a href="https://aiwebtools.lovable.app/?via=aiwebtools" className="hover:text-white transition-colors">AI WEB TOOLS LLC</a> All rights reserved.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-3">
@@ -158,7 +158,7 @@ const Footer: React.FC = () => {
               <ExternalLink className="ml-2 w-3.5 h-3.5" />
             </a>
             <a 
-              href="https://www.aiwebtools.ai" 
+              href="https://aiwebtools.lovable.app/?via=aiwebtools" 
               className="inline-flex items-center px-5 py-2 bg-gradient-to-r from-cyber-blue to-cyber-purple text-white text-sm font-medium rounded-full hover:shadow-[0_0_15px_-3px_rgba(54,163,255,0.6)] transition-all duration-300"
               target="_blank"
               rel="noopener noreferrer"

@@ -100,7 +100,7 @@ const Hero: React.FC = () => {
               </span>
             </a>
             <a 
-              href="https://www.aiwebtools.ai" 
+              href="https://aiwebtools.lovable.app/?via=aiwebtools" 
               className="px-8 py-3 bg-white/5 backdrop-blur-sm border border-white/10 text-white font-medium rounded-full hover:bg-white/10 transition-all duration-300"
               target="_blank"
               rel="noopener noreferrer"
