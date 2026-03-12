@@ -112,7 +112,7 @@ const Footer: React.FC = () => {
               </a>
               <div className="block"></div>
               <a 
-                href="https://www.aiwebtools.ai" 
+                href="https://aiwebtools.lovable.app/?via=aiwebtools" 
                 className="inline-flex items-center text-cyber-blue hover:text-cyber-accent transition-colors group"
                 target="_blank"
                 rel="noopener noreferrer"
