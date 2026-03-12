@@ -45,7 +45,7 @@ const Footer: React.FC = () => {
               <FooterLink href="https://personfindergpt.lovable.app/?via=aiwebtools">
                 Person Information Finder
               </FooterLink>
-              <FooterLink href="https://www.aiwebtools.ai">
+              <FooterLink href="https://aiwebtools.lovable.app/?via=aiwebtools">
                 More AI Tools
               </FooterLink>
               <FooterLink href="https://openai.com/policies/privacy-policy/">
