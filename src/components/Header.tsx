@@ -57,7 +57,7 @@ const Header: React.FC = () => {
           >
             PERSON FINDER GPT
           </HeaderButton>
-          <HeaderButton href="https://www.aiwebtools.ai">
+          <HeaderButton href="https://aiwebtools.lovable.app/?via=aiwebtools">
             More AI Tools
           </HeaderButton>
         </nav>
