@@ -76,12 +76,12 @@ const Header: React.FC = () => {
         </button>
       </div>
       
-      {/* Mobile Menu - Changed to a dropdown instead of fullscreen overlay */}
+      {/* Mobile Menu - Dropdown */}
       <div 
-        className={`md:hidden absolute right-4 top-[56px] w-64 rounded-lg glass neo-blur transition-all duration-300 z-50 ${
+        className={`md:hidden absolute left-4 right-4 top-[56px] rounded-lg glass neo-blur transition-all duration-200 ease-out z-50 ${
           isMobileMenuOpen 
             ? 'opacity-100 translate-y-0 pointer-events-auto' 
-            : 'opacity-0 -translate-y-10 pointer-events-none'
+            : 'opacity-0 -translate-y-4 pointer-events-none'
         }`}
       >
         <div className="py-4 flex flex-col space-y-3">
